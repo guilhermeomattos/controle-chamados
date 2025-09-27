@@ -1,9 +1,4 @@
 # 📌 Sistema de Controle de Chamados  
-
-![GitHub repo size](https://img.shields.io/github/repo-size/seu-usuario/controle-chamados?style=for-the-badge)  
-![GitHub contributors](https://img.shields.io/github/contributors/seu-usuario/controle-chamados?style=for-the-badge)  
-![GitHub last commit](https://img.shields.io/github/last-commit/seu-usuario/controle-chamados?style=for-the-badge)  
-
 ---
 
 ## 🎓 Sobre o Projeto  
