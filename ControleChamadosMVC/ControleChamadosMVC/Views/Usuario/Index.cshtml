@@ -1,0 +1,41 @@
+﻿@model List<ControleChamadosMVC.Models.UsuarioViewModel>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Listagem de Usuários";
+}
+
+<h2>Listagem de Usuários</h2>
+<a href="/usuario/create" class="btn btn-success">Novo Registro</a>
+<br />
+<br />
+
+<table class="table table-striped table-responsive">
+    <thead>
+        <tr>
+            <th>Ações</th>
+            <th>Código</th>
+            <th>Nome</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var usuario in Model)
+        {
+            <tr>
+                <td>
+                    <a href="/usuario/Edit?id=@usuario.Id" class="btn btn-primary">Editar</a>
+                    <a href="javascript:apagarUsuario(@usuario.Id)" class="btn btn-danger">Apagar</a>
+                </td>
+                <td>@usuario.Id</td>
+                <td>@usuario.Nome</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    function apagarUsuario(id) {
+        if (confirm('Confirma a exclusão do registro?'))
+            location.href = '/usuario/delete?id=' + id;
+    }
+</script>

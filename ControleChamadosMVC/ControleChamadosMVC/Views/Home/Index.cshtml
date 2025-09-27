@@ -1,8 +1,16 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Página Inicial";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <h1 class="display-4">Bem-vindo ao Sistema de Controle de Chamados</h1>
+    <p>Utilize o menu de navegação ou os botões abaixo para gerenciar o sistema.</p>
+    <hr />
+    
+    <a class="btn btn-primary btn-lg" 
+       asp-controller="Usuario" 
+       asp-action="Index">
+       Gerenciar Usuários
+    </a>
+
+    </div>
