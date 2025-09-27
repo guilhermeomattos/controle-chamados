@@ -1,5 +1,4 @@
 # 📌 Sistema de Controle de Chamados  
----
 
 ## 🎓 Sobre o Projeto  
 Este projeto foi desenvolvido como parte da disciplina **Linguagem de Programação I**, no **5º semestre do curso de Engenharia da Computação** da **Faculdade Engenheiro Salvador Arena**.  
@@ -13,8 +12,7 @@ O objetivo é implementar um **sistema de abertura e controle de chamados** em *
 ✔️ Listar todos os chamados registrados  
 ✔️ Alterar e excluir chamados existentes  
 ✔️ Cadastrar usuários (Id e Nome)  
-✔️ Regras de negócio:  
-   - Se a situação do chamado for **Atendido**, os campos de atendimento tornam-se obrigatórios  
+✔️ Regras de negócio:   
 ✔️ Todas as **validações são feitas no Controller** (não utilizar `required` no HTML)  
 
 ---
@@ -29,48 +27,6 @@ O objetivo é implementar um **sistema de abertura e controle de chamados** em *
 
 ---
 
-## 📂 Estrutura do Projeto (prevista)  
-controle-chamados/
-│
-├── src/
-│ └── ControleChamados/ # Projeto ASP.NET Core MVC
-│
-├── .gitignore # Arquivos e pastas ignorados pelo Git
-├── README.md # Documentação do projeto
-└── ControleChamados.sln # Solução do Visual Studio
-
-
----
-
-## ⚙️ Como Executar o Projeto
-
-### Pré-requisitos
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-- [.NET SDK](https://dotnet.microsoft.com/download) (versão utilizada no projeto)
-- [SQL Server](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads) (ou SQL Server Express)
-- [Git](https://git-scm.com/)
-
-### Rodando a Aplicação
-```bash
-# 1. Clone este repositório
-git clone [https://github.com/seu-usuario/controle-chamados.git](https://github.com/seu-usuario/controle-chamados.git)
-
-# 2. Acesse a pasta do projeto
-cd controle-chamados
-
-# 3. Configure a Connection String
-# Abra o arquivo `appsettings.json` e altere a string de conexão do banco de dados
-# para apontar para sua instância local do SQL Server.
-
-# 4. Execute as migrações do Entity Framework para criar o banco de dados
-dotnet ef database update
-
-# 5. Execute a aplicação
-dotnet run
-
-# 6. Acesse http://localhost:5000 (ou a porta indicada no terminal) no seu navegador.
-
-
 📸 Capturas de Tela
 
 (Substitua estas imagens pelos prints do seu sistema quando estiver pronto)
@@ -81,20 +37,30 @@ dotnet run
 
 🔹 Cadastro de Usuário
 
-📚 Aprendizados Esperados
-
-🔹 Prática de programação orientada a objetos em C#
-🔹 Aplicação de padrão MVC em ASP.NET
-🔹 Criação de CRUD completo (Create, Read, Update, Delete)
-🔹 Uso do Entity Framework Core para persistência de dados
-🔹 Aplicação de boas práticas com Git e GitHub
+---
 
 👨‍💻 Autores
+<table align="center">
+<tr>
+<td align="center">
+<a href="https://www.google.com/search?q=https://github.com/guilhermeomattos">
+<img src="https://avatars.githubusercontent.com/u/guilhermeomattos?v=4" width="100px;" alt="Foto de Guilherme Mattos no GitHub"/>
+<br />
+<sub><b>Guilherme Mattos</b></sub>
+</a>
+</td>
+<td align="center">
+<a href="https://www.google.com/search?q=https://github.com/paulohcarvalho07">
+<img src="https://avatars.githubusercontent.com/u/paulohcarvalho07?v=4" width="100px;" alt="Foto de Paulo Henrique no GitHub"/>
+<br />
+<sub><b>Paulo Henrique</b></sub>
+</a>
+</td>
+</tr>
+</table>
 
-<img src="https://avatars.githubusercontent.com/u/guilhermeomattos?v=4" width="100px;"/><br /><sub><b>Guilherme Mattos</b></sub>	<img src="https://avatars.githubusercontent.com/u/paulohcarvalho07?v=4" width="100px;"/><br /><sub><b>Paulo Henrique</b></sub>
-
+<p align="center">
 Estudantes de Engenharia da Computação – 5º Semestre
-Faculdade Engenheiro Salvador Arena
 
 
    
