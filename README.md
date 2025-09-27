@@ -36,18 +36,9 @@ O objetivo é implementar um **sistema de abertura e controle de chamados** em *
 
 
 # 👨‍💻 Autores
-<td align="left">
-<a href="https://github.com/guilhermeomattos">
-<br />
-<sub><b>Guilherme de Oliveira Mattos</b></sub>
-</a>
-</td>
-<td align="left">
-<a href="https://github.com/paulohcarvalho07">
-<br />
-<sub><b>Paulo Henrique de Carvalho Santos</b></sub>
-</a>
-</td>
+
+- [Guilherme de Oliveira Mattos](https://github.com/guilhermeomattos)  
+- [Paulo Henrique de Carvalho Santos](https://github.com/paulohcarvalho07)
 
 <p align="left">
 Estudantes de Engenharia da Computação – 5º Semestre
