@@ -5,7 +5,6 @@ Este projeto foi desenvolvido como parte da disciplina **Linguagem de Programaç
 
 O objetivo é implementar um **sistema de abertura e controle de chamados** em **ASP.NET Core MVC**, aplicando conceitos de **programação orientada a objetos, arquitetura MVC e integração com banco de dados**.  
 
----
 
 # 🚀 Funcionalidades  
 ✔️ Abrir um chamado (Id gerado automaticamente pelo sistema)  
@@ -15,7 +14,6 @@ O objetivo é implementar um **sistema de abertura e controle de chamados** em *
 ✔️ Regras de negócio:   
 ✔️ Todas as **validações são feitas no Controller** (não utilizar `required` no HTML)  
 
----
 
 # 🛠️ Tecnologias Utilizadas  
 - **Linguagem:** C#  
@@ -25,9 +23,8 @@ O objetivo é implementar um **sistema de abertura e controle de chamados** em *
   - Visual Studio / VS Code  
   - GitHub + GitHub Desktop  
 
----
 
-📸 Capturas de Tela
+# 📸 Capturas de Tela
 
 (Substitua estas imagens pelos prints do seu sistema quando estiver pronto)
 
@@ -37,25 +34,22 @@ O objetivo é implementar um **sistema de abertura e controle de chamados** em *
 
 🔹 Cadastro de Usuário
 
----
 
-👨‍💻 Autores
-<table align="center">
+# 👨‍💻 Autores
 <tr>
-<td align="center">
+<td align="left">
 <a href="https://github.com/guilhermeomattos">
 <br />
-<sub><b>Guilherme Mattos</b></sub>
+<sub><b>Guilherme de Oliveira Mattos</b></sub>
 </a>
 </td>
-<td align="center">
+<td align="left">
 <a href="https://github.com/paulohcarvalho07">
 <br />
-<sub><b>Paulo Henrique</b></sub>
+<sub><b>Paulo Henrique de Carvalho Santos</b></sub>
 </a>
 </td>
 </tr>
-</table>
 
 <p align="center">
 Estudantes de Engenharia da Computação – 5º Semestre
