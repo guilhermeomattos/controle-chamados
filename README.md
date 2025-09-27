@@ -43,15 +43,13 @@ O objetivo é implementar um **sistema de abertura e controle de chamados** em *
 <table align="center">
 <tr>
 <td align="center">
-<a href="https://www.google.com/search?q=https://github.com/guilhermeomattos">
-<img src="https://avatars.githubusercontent.com/u/guilhermeomattos?v=4" width="100px;" alt="Foto de Guilherme Mattos no GitHub"/>
+<a href="https://github.com/guilhermeomattos">
 <br />
 <sub><b>Guilherme Mattos</b></sub>
 </a>
 </td>
 <td align="center">
-<a href="https://www.google.com/search?q=https://github.com/paulohcarvalho07">
-<img src="https://avatars.githubusercontent.com/u/paulohcarvalho07?v=4" width="100px;" alt="Foto de Paulo Henrique no GitHub"/>
+<a href="https://github.com/paulohcarvalho07">
 <br />
 <sub><b>Paulo Henrique</b></sub>
 </a>
