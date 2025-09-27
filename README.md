@@ -36,7 +36,6 @@ O objetivo é implementar um **sistema de abertura e controle de chamados** em *
 
 
 # 👨‍💻 Autores
-<tr>
 <td align="left">
 <a href="https://github.com/guilhermeomattos">
 <br />
@@ -49,9 +48,8 @@ O objetivo é implementar um **sistema de abertura e controle de chamados** em *
 <sub><b>Paulo Henrique de Carvalho Santos</b></sub>
 </a>
 </td>
-</tr>
 
-<p align="center">
+<p align="left">
 Estudantes de Engenharia da Computação – 5º Semestre
 
 
