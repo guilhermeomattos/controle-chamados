@@ -1,13 +1,13 @@
 # 📌 Sistema de Controle de Chamados  
 
-## 🎓 Sobre o Projeto  
+# 🎓 Sobre o Projeto  
 Este projeto foi desenvolvido como parte da disciplina **Linguagem de Programação I**, no **5º semestre do curso de Engenharia da Computação** da **Faculdade Engenheiro Salvador Arena**.  
 
 O objetivo é implementar um **sistema de abertura e controle de chamados** em **ASP.NET Core MVC**, aplicando conceitos de **programação orientada a objetos, arquitetura MVC e integração com banco de dados**.  
 
 ---
 
-## 🚀 Funcionalidades  
+# 🚀 Funcionalidades  
 ✔️ Abrir um chamado (Id gerado automaticamente pelo sistema)  
 ✔️ Listar todos os chamados registrados  
 ✔️ Alterar e excluir chamados existentes  
@@ -17,7 +17,7 @@ O objetivo é implementar um **sistema de abertura e controle de chamados** em *
 
 ---
 
-## 🛠️ Tecnologias Utilizadas  
+# 🛠️ Tecnologias Utilizadas  
 - **Linguagem:** C#  
 - **Framework:** ASP.NET Core MVC  
 - **Banco de Dados:** SQL Server (com Entity Framework Core)  
