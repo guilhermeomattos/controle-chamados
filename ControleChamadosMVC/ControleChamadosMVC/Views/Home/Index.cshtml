@@ -5,11 +5,21 @@
 <div class="text-center">
     <h1 class="display-4">FESA - Controle de Chamados</h1>
     <hr />
-    
-    <a class="btn btn-primary btn-lg" 
-       asp-controller="Usuario" 
-       asp-action="Index">
-       Gerenciar Usuários
-    </a>
+
+    <div class="d-grid gap-3 mx-auto" style="max-width: 400px;">
+
+        <a class="btn btn-primary btn-lg"
+           asp-controller="Usuario"
+           asp-action="Index">
+            Gerenciar Usuários
+        </a>
+
+        <a class="btn btn-dark btn-lg"
+           asp-controller="Chamado"
+           asp-action="Index">
+            Chamados
+        </a>
+
+    </div>
 
     </div>
