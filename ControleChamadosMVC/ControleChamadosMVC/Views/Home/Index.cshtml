@@ -3,14 +3,27 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Bem-vindo ao Sistema de Controle de Chamados</h1>
-    <p>Utilize o menu de navegação ou os botões abaixo para gerenciar o sistema.</p>
+    <h1 class="display-4">Sistema de Controle de Chamados</h1>
+    <p>Utilize os botões abaixo para gerenciar o sistema.</p>
     <hr />
     
     <a class="btn btn-primary btn-lg" 
        asp-controller="Usuario" 
        asp-action="Index">
        Gerenciar Usuários
+    </a>
+
+    <a class="btn btn-primary btn-lg"
+       asp-controller="Chamado"
+       asp-action="Index">
+        Gerenciar Chamados
+    </a>
+
+
+    <a class="btn btn-primary btn-lg"
+       asp-controller="Chamado"
+       asp-action="Create">
+       Novo Chamado
     </a>
 
     </div>
