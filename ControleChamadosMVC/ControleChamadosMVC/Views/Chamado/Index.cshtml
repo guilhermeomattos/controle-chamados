@@ -50,7 +50,19 @@
 
 <script>
     function apagarUsuario(id) {
-        if (confirm('Confirma a exclusão do registro?'))
-            location.href = '/chamado/delete?id=' + id;
+        Swal.fire({
+            title: 'Tem certeza?',
+            text: "Essa ação não poderá ser desfeita!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#d33',
+            cancelButtonColor: '#6c757d',
+            confirmButtonText: 'Sim, apagar!',
+            cancelButtonText: 'Cancelar'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.href = '/chamado/delete?id=' + id;
+            }
+        });
     }
 </script>
